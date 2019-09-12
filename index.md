@@ -8,9 +8,9 @@ I'm an aspiring data scie ntist with 3.5 years of industry experience in data sc
 
 Short presentations on my R&D work in industry can be found below:
 
-- [Automated pipeline for binary classification](supervised_slides.html)
-- [Automated pipeline for clustering and basket anlaysis](unsupervised_slides.html)
-- Pipeline for text understanding and predictive modeling. [[View Presentation](text_classification.html)] [[View code on GitHub](https://github.com/SNaveenMathew/TextMining)]
+- Automated pipeline for binary classification[[View Presentation](supervised_slides.html)][[View repo on GitHub](https://github.com/SNaveenMathew/EnsembleModel)]
+- Automated pipeline for clustering and basket anlaysis[[View Presentation](unsupervised_slides.html)][[View repo on GitHub](https://github.com/SNaveenMathew/AutomatedClustering)]
+- Pipeline for natural language understanding and predictive modeling. [[View Presentation](text_classification_presentation.html)][[View Use Case](text_classification_use_case.html)] [[View repo on GitHub](https://github.com/SNaveenMathew/TextMining)]
 
 ## Research
 
@@ -21,7 +21,7 @@ Information on my current research work in academia can be found below:
     - [Link to the application](https://snaveenmathew.shinyapps.io/unsupervised_exoplanet/)
 - Reinforcement learning for traffic control[Blog post](https://medium.com/@pg13s_nathan/lessons-from-my-internship-and-immediate-aftermath-40edacfa0b85)
 
-Research achievements:
+**Research achievements:**
 
 - Applied for 2 patents in reinforcement learning and federated learning respectively
 - Currently working on publishing a research paper in reinforcement learning
