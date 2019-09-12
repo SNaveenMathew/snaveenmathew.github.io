@@ -2,7 +2,7 @@
 
 ## Summary
 
-I'm an aspiring data scientist with 3.5 years of industry experience in data science R&D. I worked as a data scientist in service oriented settings and in product teams that delivered insights from data. I'm deeply interested in pipelining and automation of machine learning. In the past I worked with delivery teams to create automated pipelines for supervised and unsupervised learning.
+I'm an aspiring data scientist with 3.5 years of industry experience in data science R&D. I worked in service oriented settings and in product teams that delivered insights from data. I'm deeply interested in pipelining and automation of machine learning (supervised and unsupervised). In the past I worked with delivery teams to create automated pipelines for supervised and unsupervised learning ([details](#Product/Solution Development)).
 
 ## Product/Solution Development
 
