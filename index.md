@@ -2,24 +2,24 @@
 
 ## Summary
 
-I'm an aspiring data scie ntist with 3.5 years of industry experience in data science R&D. I worked as a data scientist in service oriented settings and in product teams that delivered insights from data. I'm deeply interested in pipelining and automation of machine learning. In the past I worked with delivery teams to create automated pipelines for supervised and unsupervised learning.
+I'm an aspiring data scientist with 3.5 years of industry experience in data science R&D. I worked as a data scientist in service oriented settings and in product teams that delivered insights from data. I'm deeply interested in pipelining and automation of machine learning. In the past I worked with delivery teams to create automated pipelines for supervised and unsupervised learning.
 
 ## Product/Solution Development
 
 Short presentations on my R&D work in industry can be found below:
 
-- Automated pipeline for binary classification[[View Presentation](supervised_slides.html)][[View repo on GitHub](https://github.com/SNaveenMathew/EnsembleModel)]
-- Automated pipeline for clustering and basket anlaysis[[View Presentation](unsupervised_slides.html)][[View repo on GitHub](https://github.com/SNaveenMathew/AutomatedClustering)]
-- Pipeline for natural language understanding and predictive modeling. [[View Presentation](text_classification_presentation.html)][[View Use Case](text_classification_use_case.html)] [[View repo on GitHub](https://github.com/SNaveenMathew/TextMining)]
+- Automated pipeline for binary classification [[View Presentation](supervised_slides.html)] [[View repo on GitHub](https://github.com/SNaveenMathew/EnsembleModel)]
+- Automated pipeline for clustering and basket anlaysis [[View Presentation](unsupervised_slides.html)] [[View repo on GitHub](https://github.com/SNaveenMathew/AutomatedClustering)]
+- Pipeline for natural language understanding and predictive modeling [[View Presentation](text_classification_presentation.html)] [[View repo on GitHub](https://github.com/SNaveenMathew/TextMining)] [[View use-case presentation](text_classification_use_case.html)]
 
 ## Research
 
 Information on my current research work in academia can be found below:
 
-- [Unsupervised learning and crowd-sourcing for exoplanet detection](https://snaveenmathew.github.io/Unsupervised-Exoplanet/)
-    - Why do we need unsupervised learning and crowd-sourcing   for exoplanet detection? [Blog post]()
-    - [Link to the application](https://snaveenmathew.shinyapps.io/unsupervised_exoplanet/)
-- Reinforcement learning for traffic control[Blog post](https://medium.com/@pg13s_nathan/lessons-from-my-internship-and-immediate-aftermath-40edacfa0b85)
+- Unsupervised learning and crowd-sourcing for exoplanet detection [[Motivation](https://snaveenmathew.github.io/Unsupervised-Exoplanet/)]
+    - Why do we need unsupervised learning and crowd-sourcing   for exoplanet detection? [[Blog post](https://medium.com/@pg13s_nathan/unsupervised-learning-in-astronomy-for-exoplanet-candidate-identification-997f3f958dae)]
+    - [[Link to the application](https://snaveenmathew.shinyapps.io/unsupervised_exoplanet/)]
+- Reinforcement learning for traffic control [[Blog post](https://medium.com/@pg13s_nathan/lessons-from-my-internship-and-immediate-aftermath-40edacfa0b85)]
 
 **Research achievements:**
 
