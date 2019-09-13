@@ -9,7 +9,7 @@ I'm an aspiring data scientist with 3.5 years of industry experience in data sci
 Short presentations on my R&D work in industry can be found below:
 
 - Automated pipeline for binary classification [[View presentation](supervised_slides.html)] [[View repo on GitHub](https://github.com/SNaveenMathew/EnsembleModel)]
-- Automated pipeline for clustering and basket anlaysis [[View presentation](unsupervised_slides.html)] [[View repo on GitHub](https://github.com/SNaveenMathew/AutomatedClustering)]
+- Automated pipeline for clustering and basket anlaysis [[View presentation](unsupervised_slides.html)] [[View repo on GitHub](https://github.com/SNaveenMathew/AutomatedClustering)] [[View use case presentation](unsupervised_use_case.html)]
 - Pipeline for natural language understanding and predictive modeling [[View presentation](text_classification_presentation.html)] [[View repo on GitHub](https://github.com/SNaveenMathew/TextMining)] [[View use-case presentation](text_classification_use_case.html)][[Example notebook](https://github.com/SNaveenMathew/TextMining/blob/master/main.ipynb)]
 
 ## Research
