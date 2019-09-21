@@ -16,17 +16,43 @@ Short presentations on my R&D work in industry can be found below:
 
 Information on my current research work in academia can be found below:
 
-- Unsupervised learning and crowd-sourcing for exoplanet detection [[Motivation](https://snaveenmathew.github.io/Unsupervised-Exoplanet/)]
-    - Why do we need unsupervised learning and crowd-sourcing   for exoplanet detection? [[Blog post](https://medium.com/@pg13s_nathan/unsupervised-learning-in-astronomy-for-exoplanet-candidate-identification-997f3f958dae)]
-    - [[Link to the application](https://snaveenmathew.shinyapps.io/unsupervised_exoplanet/)]
+- Unsupervised learning and crowd-sourcing for exoplanet candidate identification [[Motivation](https://snaveenmathew.github.io/Unsupervised-Exoplanet/)] [[Blog post](https://medium.com/@snaveenmathew/unsupervised-learning-in-astronomy-for-exoplanet-candidate-identification-997f3f958dae)]
+    - Why do we need unsupervised learning and crowd-sourcing for exoplanet candidate identification? [[Blog post](https://medium.com/@snaveenmathew/search-for-exoplanets-humans-vs-stars-cfb2bf494317)]
+    - An old version of the application is live! [[Link to the application](https://snaveenmathew.shinyapps.io/unsupervised_exoplanet/)]
         - Demo details: username: `user1`, password: `pass1`
-- Reinforcement learning for traffic control [[Blog post](https://medium.com/@pg13s_nathan/lessons-from-my-internship-and-immediate-aftermath-40edacfa0b85)]
+- Reinforcement learning for traffic control [[Blog post](https://medium.com/@snaveenmathew/lessons-from-my-internship-and-immediate-aftermath-40edacfa0b85)]
 
-**Research achievements:**
+Information on my past research work in academia can be found below:
+
+- Applications of machine learning and deep learning in finance
+    - Applied filters, feature engineering, machine learning and stacked ensembling to predict the direction of movement of bitcoin price in real-time [[PDF](ML_report.pdf)]
+        - Feature engineering: fractional differentiation, meta-labeling and CUSUM filter
+        - Sampling: sequential bootstrap to reduce overlap between feature windows and purged k-fold cross-validation without independence assumption to avoid data leakage
+        - Machine learning: Logistic regression, decision tree, random forest, AdaBoost, XGBoost, stacked ensemble
+        - Natural language processing: Incorporated relevant text features from news artilces to study the effect of news on bitcoin price. Only the important relationships were explored due to the enormous scale of text
+        - Hyperparameter tuning: randomized grid search
+        - Evaluation: Accuracy, precision, recall, F1, area under ROC curve
+        - Result: Stacked ensemble had much higher AUC and accuracy than the best individual machine learning model. Correlation between current stock price and previous day new was established, but memory based models (such as exponential memory) were not used to explore further
+    - Used deep learning to predict the direction of movement (in next 60 seconds) of VWAP of most significant levels in limit order book [[PDF](DL_report.pdf)]
+        - Feature engineering: time bar, missing value treatment
+        - Sampling: first 60% for training, 60%-80% for validation, last 20% for testing
+        - Machine learning: fully connected network (hyperparameters: number of layers, number of neurons, dropout), convolutional neural network (hyperparameters: number of channels, number of neurons in dense layer, dropout), LSTM (hyperparameter: number of units in dense layer, dropout), hierarchical recurrent neural network (row and column encoding - expected to work better for LOB because of the arrangement of price levels)
+        - Hyperparameter tuning: randomized grid search
+        - Evaluation: Multiclass accuracy, class-wise F1 score
+        - Result: HRNN outperformed other models in all cases. However, it should be noted that: 1) training was very noisy because the sample size was limited to observations from 1 day, 2) HRNN was unable to outperform majority guess for ticker 3
+    - Scaling up preprocessing and feature engineering of limit order book and applying deep learning across tickers to predict the direction of movement of VWAP [[PDF](research_final.pdf)]
+        - Hypothesis: 1) multiprocessing is required to scale up preprocessing and feature engineering, 2) current snapshot of volumes at different price levels can be viewed as an image with colors and the variation with time can be considered as a stack of images
+        - Tools and techniques for feature engineering: Python, dask, multiprocessing, R, parallel, dplyr, keras, R Shiny
+        - Machine learning: deep convolutional neural network
+        - Hyperparameter tuning: randomized grid search
+        - Evaluation: Multiclass accuracy, class-wise F1 score
+        - Result: CNN model **significantly** outperformed majority guess in all cases. But other tickers could not be added as covariates - `memoryError` on 16 GB RAM
+
+### Research achievements
 
 - Applied for 2 patents in reinforcement learning and federated learning respectively
 - Currently working on publishing a research paper in reinforcement learning
 
 ## Knowledge Sharing
 
-I share my knowledge through [my blog](https://medium.com/@pg13s_nathan/) on Medium.com. My main focus is on the basic mathematical and statistical concepts behind machine learning. I also share my practical experience by explaining how mathematics helps in solving real-life problems.
+I share my knowledge through [my blog](https://medium.com/@snaveenmathew/) on Medium.com. My main focus is on the basic mathematical and statistical concepts behind machine learning. I also share my practical experience by explaining how mathematics helps in solving real-life problems.
