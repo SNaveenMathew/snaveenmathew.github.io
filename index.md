@@ -25,14 +25,7 @@ Information on my current research work in academia can be found below:
 Information on my past research work in academia can be found below:
 
 - Applications of machine learning and deep learning in finance
-    - Applied filters, feature engineering, machine learning and stacked ensembling to predict the direction of movement of bitcoin price in real-time [[PDF](ML_report.pdf)]
-        - Feature engineering: fractional differentiation, meta-labeling and CUSUM filter
-        - Sampling: sequential bootstrap to reduce overlap between feature windows and purged k-fold cross-validation without independence assumption to avoid data leakage
-        - Machine learning: Logistic regression, decision tree, random forest, AdaBoost, XGBoost, stacked ensemble
-        - Natural language processing: Incorporated relevant text features from news artilces to study the effect of news on bitcoin price. Only the important relationships were explored due to the enormous scale of text
-        - Hyperparameter tuning: randomized grid search
-        - Evaluation: Accuracy, precision, recall, F1, area under ROC curve
-        - Result: Stacked ensemble had much higher AUC and accuracy than the best individual machine learning model. Correlation between current stock price and previous day new was established, but memory based models (such as exponential memory) were not used to explore further
+    - Applied filters, feature engineering, machine learning and stacked ensembling to predict the direction of movement of bitcoin price in real-time [[PDF Report](ML_report.pdf)] [[Technical Presentation](ml_finance.html)]
     - Used deep learning to predict the direction of movement (in next 60 seconds) of VWAP of most significant levels in limit order book [[PDF](DL_report.pdf)]
         - Feature engineering: time bar, missing value treatment
         - Sampling: first 60% for training, 60%-80% for validation, last 20% for testing
