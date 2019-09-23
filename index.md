@@ -21,6 +21,7 @@ Information on my current research work in academia can be found below:
     - An old version of the application is live! [[Link to the application](https://snaveenmathew.shinyapps.io/unsupervised_exoplanet/)]
         - Demo details: username: `user1`, password: `pass1`
 - Reinforcement learning for traffic control [[Blog post](https://medium.com/@snaveenmathew/lessons-from-my-internship-and-immediate-aftermath-40edacfa0b85)]
+    - I applied for 2 patents. I'm currently working on a publication
 
 Information on my past research work in academia can be found below:
 
