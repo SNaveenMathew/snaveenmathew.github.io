@@ -14,7 +14,7 @@ Short presentations on my R&D work in industry can be found below:
 
 ## Research
 
-Information on my current research work in academia can be found below:
+Information on my **current** research work in academia can be found below:
 
 - Unsupervised learning and crowd-sourcing for exoplanet candidate identification [[Motivation](https://snaveenmathew.github.io/Unsupervised-Exoplanet/)] [[Blog post](https://medium.com/@snaveenmathew/unsupervised-learning-in-astronomy-for-exoplanet-candidate-identification-997f3f958dae)]
     - Why do we need unsupervised learning and crowd-sourcing for exoplanet candidate identification? [[Blog post](https://medium.com/@snaveenmathew/search-for-exoplanets-humans-vs-stars-cfb2bf494317)]
@@ -23,7 +23,7 @@ Information on my current research work in academia can be found below:
 - Reinforcement learning for traffic control [[Blog post](https://medium.com/@snaveenmathew/lessons-from-my-internship-and-immediate-aftermath-40edacfa0b85)]
     - I applied for 2 patents in reinforcement learning and federated learning respectively. I'm currently working on a publication
 
-Information on my past research work in academia can be found below:
+Information on my **past** research work in academia can be found below:
 
 - Applications of machine learning and deep learning in finance
     - Applied filters, feature engineering, machine learning and stacked ensembling to predict the direction of movement of bitcoin price in real-time [[PDF Report](ML_report.pdf)] [[Technical Presentation](ml_finance.html)]
