@@ -26,15 +26,9 @@ Information on my **current** research work in academia can be found below:
 Information on my **past** research work in academia can be found below:
 
 - Applications of machine learning and deep learning in finance
-    - Applied filters, feature engineering, machine learning and stacked ensembling to predict the direction of movement of bitcoin price in real-time [[PDF Report](ML_report.pdf)] [[Technical Presentation](ml_finance.html)]
-    - Used deep learning to predict the direction of movement (in next 60 seconds) of VWAP of most significant levels in limit order book [[PDF](DL_report.pdf)]
-        - Feature engineering: time bar, missing value treatment
-        - Sampling: first 60% for training, 60%-80% for validation, last 20% for testing
-        - Machine learning: fully connected network (hyperparameters: number of layers, number of neurons, dropout), convolutional neural network (hyperparameters: number of channels, number of neurons in dense layer, dropout), LSTM (hyperparameter: number of units in dense layer, dropout), hierarchical recurrent neural network (row and column encoding - expected to work better for LOB because of the arrangement of price levels)
-        - Hyperparameter tuning: randomized grid search
-        - Evaluation: Multiclass accuracy, class-wise F1 score
-        - Result: HRNN outperformed other models in all cases. However, it should be noted that: 1) training was very noisy because the sample size was limited to observations from 1 day, 2) HRNN was unable to outperform majority guess for ticker 3
-    - Scaling up preprocessing and feature engineering of limit order book and applying deep learning across tickers to predict the direction of movement of VWAP [[PDF](research_final.pdf)]
+    - Applied classical machine learning models and stacked ensemble to predict the direction of movement of bitcoin price in real-time [[PDF Report](ML_report.pdf)] [[Technical Presentation](ml_finance.html)]
+    - Used deep learning to predict the direction of movement (in next 60 seconds) of VWAP of most significant levels in limit order book [[PDF Report](DL_report.pdf)] [[Technical Presentation](dl_finance.html)]
+    - Scaling up preprocessing and feature engineering of limit order book and applying deep learning across tickers to predict the direction of movement of VWAP [[PDF Report](research_final.pdf)]
         - Hypothesis: 1) multiprocessing is required to scale up preprocessing and feature engineering, 2) current snapshot of volumes at different price levels can be viewed as an image with colors and the variation with time can be considered as a stack of images
         - Tools and techniques for feature engineering: Python, dask, multiprocessing, R, parallel, dplyr, keras, R Shiny
         - Machine learning: deep convolutional neural network
