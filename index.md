@@ -28,14 +28,8 @@ Information on my **past** research work in academia can be found below:
 - Applications of machine learning and deep learning in finance
     - Applied classical machine learning models and stacked ensemble to predict the direction of movement of bitcoin price in real-time [[PDF Report](ML_report.pdf)] [[Technical Presentation](ml_finance.html)]
     - Used deep learning to predict the direction of movement (in next 60 seconds) of VWAP of most significant levels in limit order book [[PDF Report](DL_report.pdf)] [[Technical Presentation](dl_finance.html)]
-    - Scaling up preprocessing and feature engineering of limit order book and applying deep learning across tickers to predict the direction of movement of VWAP [[PDF Report](research_final.pdf)]
-        - Hypothesis: 1) multiprocessing is required to scale up preprocessing and feature engineering, 2) current snapshot of volumes at different price levels can be viewed as an image with colors and the variation with time can be considered as a stack of images
-        - Tools and techniques for feature engineering: Python, dask, multiprocessing, R, parallel, dplyr, keras, R Shiny
-        - Machine learning: deep convolutional neural network
-        - Hyperparameter tuning: randomized grid search
-        - Evaluation: Multiclass accuracy, class-wise F1 score
-        - Result: CNN model **significantly** outperformed majority guess in all cases. But other tickers could not be added as covariates - `memoryError` on 16 GB RAM
+    - Scaling up preprocessing and feature engineering of limit order book and applying deep learning across tickers to predict the direction of movement of VWAP [[PDF Report](research_final.pdf)] [[Technical Presentation](dl_scaling_finance.html)] [[Article on scaling consecutive row diff using Python](https://medium.com/@snaveenmathew/speeding-up-diff-between-consecutive-rows-in-python-on-my-laptop-74ccccec7e96)]
 
 ## Knowledge Sharing
 
-I share my knowledge through [my blog](https://medium.com/@snaveenmathew/) on Medium.com. My main focus is on the basic mathematical and statistical concepts behind machine learning. I also share my practical experience by explaining how mathematics helps in solving real-life problems.
+I share my knowledge through [my blog](https://medium.com/@snaveenmathew/) on Medium.com. My main focus is on the basic mathematical and statistical concepts behind machine learning. I also share my practical experience by explaining how mathematics helps in solving real-life problems. I update links to my blog posts on [this page](blog.html)
