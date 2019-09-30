@@ -1,4 +1,4 @@
-# Naveen Mathew Nathan S.
+# Naveen Mathew Nathan - Personal website
 
 ## Summary
 
