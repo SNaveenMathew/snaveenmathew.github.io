@@ -32,4 +32,4 @@ Information on my **past** research work in academia can be found below:
 
 ## Knowledge Sharing
 
-I share my knowledge through [my blog](https://medium.com/@snaveenmathew/) on Medium.com. My main focus is on the basic mathematical and statistical concepts behind machine learning. I also share my practical experience by explaining how mathematics helps in solving real-life problems. I update links to my blog posts on [this page](blog.html)
+I share my knowledge through [my blog](https://medium.com/@snaveenmathew/) on Medium.com. My main focus is on the basic mathematical and statistical concepts behind machine learning. I also share my practical experience by explaining how mathematics helps in solving real-life problems. I update links to my blog posts on [this page](blog.md)
