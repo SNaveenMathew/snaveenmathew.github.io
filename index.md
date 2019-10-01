@@ -25,6 +25,7 @@ Information on my **current** research work in academia can be found below:
 
 Information on my **past** research work in academia can be found below:
 
+- Information theory based redefinion of binary cross-entropy to define a new link function in GLM (binary classification) [[Mathematical Details](t-glm.pdf)]
 - Applications of machine learning and deep learning in finance
     - Applied classical machine learning models and stacked ensemble to predict the direction of movement of bitcoin price in real-time [[PDF Report](ML_report.pdf)] [[Technical Presentation](ml_finance.html)]
     - Used deep learning to predict the direction of movement (in next 60 seconds) of VWAP of most significant levels in limit order book [[PDF Report](DL_report.pdf)] [[Technical Presentation](dl_finance.html)]
