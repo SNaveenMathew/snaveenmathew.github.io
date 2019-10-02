@@ -31,6 +31,14 @@ Information on my **past** research work in academia can be found below:
     - Used deep learning to predict the direction of movement (in next 60 seconds) of VWAP of most significant levels in limit order book [[PDF Report](DL_report.pdf)] [[Technical Presentation](dl_finance.html)]
     - Deep learning for transfer learning in limit order book analysis and scaling up of financial data preprocessing [[PDF Report](research_final.pdf)] [[Technical Presentation](dl_scaling_finance.html)] [[Article on scaling consecutive row diff using Python](https://medium.com/@snaveenmathew/speeding-up-diff-between-consecutive-rows-in-python-on-my-laptop-74ccccec7e96)]
 
+## Course Work
+
+To know more about my course work and to get a copy of my personal course notes (LaTeX), please visit [this page](courses.md). Important things to note:
+
+- The R Markdown scripts can be compiled to generate PDF outputs. I take extra care not to upload PDF files to my course repository. Please DO NOT contact me for assistance on compilation to PDF
+- Please DO NOT contact me for feedback on courses or professors. Most importantly, please DO NOT contact me for assignments. I will not entertain any violation of [honor code](https://cs.illinois.edu/academics/honor-code) of UIUC before
+- Please DO NOT contact me for the actual slides used in courses. If you are interested in the program please visit the [Statistics department website](https://stat.illinois.edu)
+
 ## Knowledge Sharing
 
 I share my knowledge through [my blog](https://medium.com/@snaveenmathew/) on Medium.com. My main focus is on the basic mathematical and statistical concepts behind machine learning. I also share my practical experience by explaining how mathematics helps in solving real-life problems. I update links to my blog posts on [this page](blog.md)
