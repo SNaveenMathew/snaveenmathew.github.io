@@ -2,7 +2,7 @@
 
 ## Summary
 
-I'm a Graduate Student at Department of Statistics, University of Illinois at Urbana-Champaign (UIUC). I'm an aspiring data scientist with 3.5 years of industry experience in data science R&D. I worked in service oriented settings and in product teams that delivered insights from data. I'm deeply interested in pipelining and automation of machine learning (supervised and unsupervised). In the past I worked with delivery teams to create automated pipelines for supervised and unsupervised learning ([details](#productsolution-development)).
+I'm a (data) scientist with 6.5 years of industry experience in machine learning R&D. I currently work on fundamental scientific problems, delivering insights from experimental data. I'm deeply interested in mathematical foundations of machine  learning and deep learning. I'm also interested in creating data pipelines and automatic machine learning (including unsupervised learning, which is often ignored in popular AutoML frameworks). In the past I worked with client delivery teams to create automated pipelines for supervised and unsupervised learning ([details](#productsolution-development)).
 
 ## Product/Solution Development
 
