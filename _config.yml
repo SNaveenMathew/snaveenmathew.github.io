@@ -1,4 +1,5 @@
-# Custom HTML/CSS website - no theme needed
+# Static HTML website - Jekyll processing disabled
 # Design inspired by Sagar Shah's portfolio
+skip_jekyll: true
 title: Naveen Mathew Nathan - Personal Website
 description: Data Scientist & ML Researcher
