@@ -1,0 +1,415 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Naveen Mathew Nathan - Personal Website</title>
+    <link href="assets/css/fonts.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+  </head>
+  <body class="bg-lightgray dark:bg-darkgray">
+    <header class="sticky top-0 z-30 w-full bg-lightgray/90 dark:bg-darkgray/90">
+      <div class="flex w-full max-w-7xl mx-auto items-center justify-between p-4 md:px-8 xl:px-20">
+        <a href="#">
+          <h3 class="font-bold text-2xl lg:text-3xl text-lightgray-900 dark:text-darkgray-900">&lt;NM /&gt;</h3>
+        </a>
+        <div class="hidden md:flex items-center gap-6">
+          <a class="font-medium text-base text-lightgray-600 dark:text-darkgray-600" href="#about">About</a>
+          <a class="font-medium text-base text-lightgray-600 dark:text-darkgray-600" href="#work">Work</a>
+          <a class="font-medium text-base text-lightgray-600 dark:text-darkgray-600" href="#research">Research</a>
+          <a class="font-medium text-base text-lightgray-600 dark:text-darkgray-600" href="#contact">Contact</a>
+          <span class="h-6 w-0.5 bg-lightgray-100 dark:bg-darkgray-100"></span>
+          <button id="switch-theme" class="p-1 rounded-lg hover:bg-lightgray-100 dark:hover:bg-darkgray-100">
+            <svg
+              class="stroke-lightgray-600 flex dark:hidden animate-bounce"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12 3C10.8065 4.19347 10.136 5.81217 10.136 7.5C10.136 9.18783 10.8065 10.8065 12 12C13.1935 13.1935 14.8122 13.864 16.5 13.864C18.1878 13.864 19.8065 13.1935 21 12C21 13.78 20.4722 15.5201 19.4832 17.0001C18.4943 18.4802 17.0887 19.6337 15.4442 20.3149C13.7996 20.9961 11.99 21.1743 10.2442 20.8271C8.49836 20.4798 6.89472 19.6226 5.63604 18.364C4.37737 17.1053 3.5202 15.5016 3.17294 13.7558C2.82567 12.01 3.0039 10.2004 3.68509 8.55585C4.36628 6.91131 5.51983 5.50571 6.99987 4.51677C8.47991 3.52784 10.22 3 12 3Z"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path d="M19 3V7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M21 5H17" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            <svg
+              class="stroke-darkgray-600 hidden dark:flex animate-bounce"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path d="M12 2V4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M12 20V22" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M4.93018 4.92999L6.34018 6.33999" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M17.6602 17.66L19.0702 19.07" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M2 12H4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M20 12H22" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M6.34018 17.66L4.93018 19.07" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M19.0702 4.92999L17.6602 6.33999" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main class="flex flex-col min-h-screen w-full">
+      <section class="flex flex-col w-full py-16 md:py-24">
+        <div class="flex flex-col w-full max-w-7xl mx-auto px-4 md:px-8 xl:px-20 gap-12">
+          <div class="flex flex-col gap-12">
+            <div class="flex flex-col gap-4">
+              <h1 class="font-bold text-4xl md:text-5xl lg:text-6xl text-left text-lightgray-900 dark:text-darkgray-900">
+                Naveen Mathew Nathan
+              </h1>
+              <p class="font-normal text-lg md:text-xl text-lightgray-600 dark:text-darkgray-600">
+                Data Scientist & ML Researcher
+              </p>
+            </div>
+            <div class="flex flex-col gap-6">
+              <p class="font-normal text-base text-lightgray-600 dark:text-darkgray-600 max-w-2xl">
+                I'm a (data) scientist with 6.5+ years of industry experience in machine learning R&D. I currently work on fundamental scientific problems, delivering insights from experimental data. I'm deeply interested in mathematical foundations of machine learning and deep learning. I'm also interested in creating data pipelines and automatic machine learning (including unsupervised learning, which is often ignored in popular AutoML frameworks).
+              </p>
+              <div class="flex flex-col gap-4">
+                <div class="flex gap-2">
+                  <svg
+                    class="stroke-lightgray-600 dark:stroke-darkgray-600"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M20 10C20 16 12 22 12 22C12 22 4 16 4 10C4 7.87827 4.84285 5.84344 6.34315 4.34315C7.84344 2.84285 9.87827 2 12 2C14.1217 2 16.1566 2.84285 17.6569 4.34315C19.1571 5.84344 20 7.87827 20 10Z"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M12 13C13.6569 13 15 11.6569 15 10C15 8.34315 13.6569 7 12 7C10.3431 7 9 8.34315 9 10C9 11.6569 10.3431 13 12 13Z"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <p class="font-normal text-base text-lightgray-600 dark:text-darkgray-600">Boston, MA</p>
+                </div>
+              </div>
+              <div class="flex gap-4">
+                <a href="https://github.com/SNaveenMathew" target="_blank">
+                  <svg
+                    class="stroke-lightgray-600 dark:stroke-darkgray-600 hover:stroke-lightgray-900 dark:hover:stroke-darkgray-900"
+                    width="36"
+                    height="36"
+                    viewBox="0 0 36 36"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M21 28V24C21.1392 22.7473 20.78 21.4901 20 20.5C23 20.5 26 18.5 26 15C26.08 13.75 25.73 12.52 25 11.5C25.28 10.35 25.28 9.15 25 8C25 8 24 8 22 9.5C19.36 9 16.64 9 14 9.5C12 8 11 8 11 8C10.7 9.15 10.7 10.35 11 11.5C10.2719 12.5159 9.91851 13.7528 10 15C10 18.5 13 20.5 16 20.5C15.61 20.99 15.32 21.55 15.15 22.15C14.98 22.75 14.93 23.38 15 24V28"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path d="M15 24C10.49 26 10 22 8 22" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </a>
+                <a href="https://medium.com/@snaveenmathew" target="_blank">
+                  <svg
+                    class="stroke-lightgray-600 dark:stroke-darkgray-600 hover:stroke-lightgray-900 dark:hover:stroke-darkgray-900"
+                    width="36"
+                    height="36"
+                    viewBox="0 0 36 36"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M30 12C30 20.8366 23.732 28 16 28C8.26801 28 2 20.8366 2 12C2 3.16344 8.26801 -4 16 -4C23.732 -4 30 3.16344 30 12Z"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M11 10V18C11 18.5304 11.2107 19.0391 11.5858 19.4142C11.9609 19.7893 12.4696 20 13 20C13.5304 20 14.0391 19.7893 14.4142 19.4142C14.7893 19.0391 15 18.5304 15 18V10"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path d="M21 10V18" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="flex flex-col w-full py-16 md:py-24 bg-lightgray-50 dark:bg-darkgray-50">
+        <div class="flex flex-col w-full max-w-7xl mx-auto px-4 md:px-8 xl:px-20 gap-6 md:gap-12">
+          <div class="flex flex-col gap-6">
+            <div class="flex justify-center">
+              <p class="font-medium text-sm text-center text-gray-600 dark:text-darkgray-600 py-1 px-5 bg-lightgray-200 dark:bg-darkgray-200 rounded-xl">
+                About Me
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-col gap-6">
+            <h2 class="font-semibold text-2xl lg:text-3xl text-left text-lightgray-900 dark:text-darkgray-900">
+              Background & Interests
+            </h2>
+            <p class="font-normal text-base text-lightgray-600 dark:text-darkgray-600">
+              In the past I worked with client delivery teams to create automated pipelines for supervised and unsupervised learning. My research interests span across:
+            </p>
+            <div class="flex flex-col gap-4">
+              <div class="flex flex-col gap-2">
+                <h3 class="font-semibold text-lg text-lightgray-900 dark:text-darkgray-900">Research Areas</h3>
+                <ul class="flex flex-col list-disc font-normal text-base text-lightgray-600 dark:text-darkgray-600 pl-5 gap-2">
+                  <li>Unsupervised learning and crowd-sourcing for exoplanet candidate identification</li>
+                  <li>Reinforcement learning for traffic control (US patent pending)</li>
+                  <li>Information theory based redefinition of binary cross-entropy for GLM</li>
+                  <li>Applications of ML and deep learning in finance</li>
+                </ul>
+              </div>
+              <div class="flex flex-col gap-2">
+                <h3 class="font-semibold text-lg text-lightgray-900 dark:text-darkgray-900">Knowledge Sharing</h3>
+                <p class="font-normal text-base text-lightgray-600 dark:text-darkgray-600">
+                  I share my knowledge through my <a href="https://medium.com/@snaveenmathew/" target="_blank" class="underline hover:text-lightgray-900 dark:hover:text-darkgray-900">blog on Medium.com</a>, focusing on mathematical and statistical fundamentals of machine learning. I also maintain a <a href="https://snaveenmathew.github.io/ml_book/" target="_blank" class="underline hover:text-lightgray-900 dark:hover:text-darkgray-900">machine learning book</a> with my blog posts in a loosely ordered format.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="work" class="flex flex-col w-full py-16 md:py-24 gap-6">
+        <div class="flex flex-col w-full max-w-7xl mx-auto px-4 md:px-8 xl:px-20 gap-6 md:gap-12">
+          <div class="flex flex-col gap-4">
+            <div class="flex justify-center">
+              <p class="font-medium text-sm text-center text-gray-600 dark:text-darkgray-600 py-1 px-5 rounded-xl bg-lightgray-200 dark:bg-darkgray-200">
+                Product & Solution Development
+              </p>
+            </div>
+            <p class="font-normal text-lg lg:text-xl text-center text-lightgray-600 dark:text-darkgray-600">
+              Short presentations on my R&D work in industry:
+            </p>
+          </div>
+          <div class="flex flex-col gap-6">
+            <div class="flex flex-col p-6 gap-4 shadow-md dark:shadow-xl rounded-xl bg-lightgray dark:bg-darkgray-100">
+              <p class="font-semibold text-lg md:text-xl text-lightgray-900 dark:text-darkgray-900">Automated Pipeline for Binary Classification</p>
+              <p class="font-normal text-base text-lightgray-600 dark:text-darkgray-600">
+                An end-to-end automated pipeline for binary classification with comprehensive model evaluation and ensemble techniques.
+              </p>
+              <div class="flex flex-wrap gap-2">
+                <a href="supervised_slides.html" class="font-medium text-sm text-center text-gray-600 dark:text-darkgray-600 py-1 px-5 bg-lightgray-200 dark:bg-darkgray-200 rounded-xl hover:bg-lightgray-300 dark:hover:bg-darkgray-300">
+                  View Presentation
+                </a>
+                <a href="https://github.com/SNaveenMathew/EnsembleModel" target="_blank" class="font-medium text-sm text-center text-gray-600 dark:text-darkgray-600 py-1 px-5 bg-lightgray-200 dark:bg-darkgray-200 rounded-xl hover:bg-lightgray-300 dark:hover:bg-darkgray-300">
+                  GitHub Repo
+                </a>
+              </div>
+            </div>
+
+            <div class="flex flex-col p-6 gap-4 shadow-md dark:shadow-xl rounded-xl bg-lightgray dark:bg-darkgray-100">
+              <p class="font-semibold text-lg md:text-xl text-lightgray-900 dark:text-darkgray-900">Automated Pipeline for Clustering & Basket Analysis</p>
+              <p class="font-normal text-base text-lightgray-600 dark:text-darkgray-600">
+                Automated clustering pipeline with basket analysis for unsupervised learning and segmentation tasks.
+              </p>
+              <div class="flex flex-wrap gap-2">
+                <a href="unsupervised_slides.html" class="font-medium text-sm text-center text-gray-600 dark:text-darkgray-600 py-1 px-5 bg-lightgray-200 dark:bg-darkgray-200 rounded-xl hover:bg-lightgray-300 dark:hover:bg-darkgray-300">
+                  View Presentation
+                </a>
+                <a href="https://github.com/SNaveenMathew/AutomatedClustering" target="_blank" class="font-medium text-sm text-center text-gray-600 dark:text-darkgray-600 py-1 px-5 bg-lightgray-200 dark:bg-darkgray-200 rounded-xl hover:bg-lightgray-300 dark:hover:bg-darkgray-300">
+                  GitHub Repo
+                </a>
+                <a href="unsupervised_use_case.html" class="font-medium text-sm text-center text-gray-600 dark:text-darkgray-600 py-1 px-5 bg-lightgray-200 dark:bg-darkgray-200 rounded-xl hover:bg-lightgray-300 dark:hover:bg-darkgray-300">
+                  Use Case
+                </a>
+              </div>
+            </div>
+
+            <div class="flex flex-col p-6 gap-4 shadow-md dark:shadow-xl rounded-xl bg-lightgray dark:bg-darkgray-100">
+              <p class="font-semibold text-lg md:text-xl text-lightgray-900 dark:text-darkgray-900">NLP & Predictive Modeling Pipeline</p>
+              <p class="font-normal text-base text-lightgray-600 dark:text-darkgray-600">
+                Pipeline for natural language understanding and predictive modeling with comprehensive text mining techniques.
+              </p>
+              <div class="flex flex-wrap gap-2">
+                <a href="text_classification_use_case.html" class="font-medium text-sm text-center text-gray-600 dark:text-darkgray-600 py-1 px-5 bg-lightgray-200 dark:bg-darkgray-200 rounded-xl hover:bg-lightgray-300 dark:hover:bg-darkgray-300">
+                  Use Case
+                </a>
+                <a href="https://github.com/SNaveenMathew/TextMining" target="_blank" class="font-medium text-sm text-center text-gray-600 dark:text-darkgray-600 py-1 px-5 bg-lightgray-200 dark:bg-darkgray-200 rounded-xl hover:bg-lightgray-300 dark:hover:bg-darkgray-300">
+                  GitHub Repo
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="research" class="flex flex-col w-full py-16 md:py-24 gap-6 bg-lightgray-50 dark:bg-darkgray-50">
+        <div class="flex flex-col w-full max-w-7xl mx-auto px-4 md:px-8 xl:px-20 gap-6 md:gap-12">
+          <div class="flex flex-col gap-4">
+            <div class="flex justify-center">
+              <p class="font-medium text-sm text-center text-gray-600 dark:text-darkgray-600 py-1 px-5 rounded-xl bg-lightgray-200 dark:bg-darkgray-200">
+                Research & Publications
+              </p>
+            </div>
+            <p class="font-normal text-lg lg:text-xl text-center text-lightgray-600 dark:text-darkgray-600">
+              Featured research work:
+            </p>
+          </div>
+          <div class="flex flex-col gap-6">
+            <div class="flex flex-col p-6 gap-4 shadow-md dark:shadow-xl rounded-xl bg-lightgray dark:bg-darkgray-100">
+              <p class="font-semibold text-lg md:text-xl text-lightgray-900 dark:text-darkgray-900">Deep Learning in Finance</p>
+              <p class="font-normal text-base text-lightgray-600 dark:text-darkgray-600">
+                Deep learning for predicting VWAP movements in limit order book with transfer learning approaches. Also includes work on scaling terabyte-scale financial data processing.
+              </p>
+              <div class="flex flex-wrap gap-2">
+                <a href="ml_finance.html" class="font-medium text-sm text-center text-gray-600 dark:text-darkgray-600 py-1 px-5 bg-lightgray-200 dark:bg-darkgray-200 rounded-xl hover:bg-lightgray-300 dark:hover:bg-darkgray-300">
+                  ML Presentation
+                </a>
+                <a href="dl_finance.html" class="font-medium text-sm text-center text-gray-600 dark:text-darkgray-600 py-1 px-5 bg-lightgray-200 dark:bg-darkgray-200 rounded-xl hover:bg-lightgray-300 dark:hover:bg-darkgray-300">
+                  DL Presentation
+                </a>
+                <a href="dl_scaling_finance.html" class="font-medium text-sm text-center text-gray-600 dark:text-darkgray-600 py-1 px-5 bg-lightgray-200 dark:bg-darkgray-200 rounded-xl hover:bg-lightgray-300 dark:hover:bg-darkgray-300">
+                  Scaling
+                </a>
+                <a href="ML_report.pdf" class="font-medium text-sm text-center text-gray-600 dark:text-darkgray-600 py-1 px-5 bg-lightgray-200 dark:bg-darkgray-200 rounded-xl hover:bg-lightgray-300 dark:hover:bg-darkgray-300">
+                  ML Report
+                </a>
+                <a href="DL_report.pdf" class="font-medium text-sm text-center text-gray-600 dark:text-darkgray-600 py-1 px-5 bg-lightgray-200 dark:bg-darkgray-200 rounded-xl hover:bg-lightgray-300 dark:hover:bg-darkgray-300">
+                  DL Report
+                </a>
+              </div>
+            </div>
+
+            <div class="flex flex-col p-6 gap-4 shadow-md dark:shadow-xl rounded-xl bg-lightgray dark:bg-darkgray-100">
+              <p class="font-semibold text-lg md:text-xl text-lightgray-900 dark:text-darkgray-900">Exoplanet Candidate Identification</p>
+              <p class="font-normal text-base text-lightgray-600 dark:text-darkgray-600">
+                Unsupervised learning and crowd-sourcing approaches for identifying exoplanet candidates. Includes interactive Shiny application for candidate review.
+              </p>
+              <div class="flex flex-wrap gap-2">
+                <a href="https://medium.com/@snaveenmathew/unsupervised-learning-in-astronomy-for-exoplanet-candidate-identification-997f3f958dae" target="_blank" class="font-medium text-sm text-center text-gray-600 dark:text-darkgray-600 py-1 px-5 bg-lightgray-200 dark:bg-darkgray-200 rounded-xl hover:bg-lightgray-300 dark:hover:bg-darkgray-300">
+                  Blog Post
+                </a>
+                <a href="https://snaveenmathew.shinyapps.io/unsupervised_exoplanet/" target="_blank" class="font-medium text-sm text-center text-gray-600 dark:text-darkgray-600 py-1 px-5 bg-lightgray-200 dark:bg-darkgray-200 rounded-xl hover:bg-lightgray-300 dark:hover:bg-darkgray-300">
+                  Live App
+                </a>
+              </div>
+            </div>
+
+            <div class="flex flex-col p-6 gap-4 shadow-md dark:shadow-xl rounded-xl bg-lightgray dark:bg-darkgray-100">
+              <p class="font-semibold text-lg md:text-xl text-lightgray-900 dark:text-darkgray-900">Theoretical Work</p>
+              <p class="font-normal text-base text-lightgray-600 dark:text-darkgray-600">
+                Information theory based redefinition of binary cross-entropy with applications to generalized linear models.
+              </p>
+              <div class="flex flex-wrap gap-2">
+                <a href="t-glm.pdf" class="font-medium text-sm text-center text-gray-600 dark:text-darkgray-600 py-1 px-5 bg-lightgray-200 dark:bg-darkgray-200 rounded-xl hover:bg-lightgray-300 dark:hover:bg-darkgray-300">
+                  Mathematical Details
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="flex flex-col w-full py-16 md:py-24 gap-6">
+        <div class="flex flex-col w-full max-w-7xl mx-auto px-4 md:px-8 xl:px-20 gap-6 md:gap-12">
+          <div class="flex flex-col gap-4">
+            <div class="flex justify-center">
+              <p class="font-medium text-sm text-center text-gray-600 dark:text-darkgray-600 py-1 px-5 rounded-xl bg-lightgray-200 dark:bg-darkgray-200">
+                Get in Touch
+              </p>
+            </div>
+            <p class="font-normal text-lg lg:text-xl text-center text-lightgray-600 dark:text-darkgray-600">
+              Feel free to reach out for collaborations or inquiries.
+            </p>
+          </div>
+          <div class="flex flex-col gap-6 items-center justify-center">
+            <div class="flex items-center justify-center gap-4">
+              <svg
+                class="shrink-0 w-6 h-6 lg:w-8 lg:h-8 stroke-lightgray-600 dark:stroke-darkgray-600"
+                width="24"
+                height="24"
+                viewBox="0 0 25 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M20.5 4H4.5C3.39543 4 2.5 4.89543 2.5 6V18C2.5 19.1046 3.39543 20 4.5 20H20.5C21.6046 20 22.5 19.1046 22.5 18V6C22.5 4.89543 21.6046 4 20.5 4Z"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M22.5 7L13.53 12.7C13.2213 12.8934 12.8643 12.996 12.5 12.996C12.1357 12.996 11.7787 12.8934 11.47 12.7L2.5 7"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <a href="mailto:naveenmathewnathan.s@gmail.com" class="font-semibold text-lg lg:text-2xl text-lightgray-900 dark:text-darkgray-900 hover:underline">
+                naveenmathewnathan.s@gmail.com
+              </a>
+            </div>
+            <div class="flex gap-6 justify-center">
+              <a href="https://github.com/SNaveenMathew" target="_blank" class="font-medium text-base text-lightgray-600 dark:text-darkgray-600 hover:text-lightgray-900 dark:hover:text-darkgray-900">
+                GitHub
+              </a>
+              <a href="https://medium.com/@snaveenmathew" target="_blank" class="font-medium text-base text-lightgray-600 dark:text-darkgray-600 hover:text-lightgray-900 dark:hover:text-darkgray-900">
+                Medium
+              </a>
+              <a href="https://snaveenmathew.github.io/ml_book/" target="_blank" class="font-medium text-base text-lightgray-600 dark:text-darkgray-600 hover:text-lightgray-900 dark:hover:text-darkgray-900">
+                ML Book
+              </a>
+              <a href="blog.md" class="font-medium text-base text-lightgray-600 dark:text-darkgray-600 hover:text-lightgray-900 dark:hover:text-darkgray-900">
+                Blog Updates
+              </a>
+              <a href="courses.md" class="font-medium text-base text-lightgray-600 dark:text-darkgray-600 hover:text-lightgray-900 dark:hover:text-darkgray-900">
+                Course Notes
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="flex flex-col w-full py-8 md:py-12 border-t border-lightgray-200 dark:border-darkgray-200">
+        <div class="flex flex-col w-full max-w-7xl mx-auto px-4 md:px-8 xl:px-20 gap-4">
+          <p class="font-normal text-sm text-center text-lightgray-600 dark:text-darkgray-600">
+            &copy; 2024 Naveen Mathew Nathan. All rights reserved.
+          </p>
+          <p class="font-normal text-xs text-center text-lightgray-500 dark:text-darkgray-500">
+            Website design inspired by <a href="https://sagarshah.dev/" target="_blank" class="underline hover:text-lightgray-600 dark:hover:text-darkgray-600">Sagar Shah's portfolio</a>. 
+            This site showcases my research and professional work without personal photography.
+          </p>
+        </div>
+      </footer>
+    </main>
+    <script>
+      // Dark mode toggle
+      const theme = localStorage.getItem('theme') || 'light';
+      if (theme === 'dark') {
+        document.documentElement.classList.add('dark');
+      }
+
+      const switchTheme = document.getElementById('switch-theme');
+      if (switchTheme) {
+        switchTheme.addEventListener('click', () => {
+          document.documentElement.classList.toggle('dark');
+          const newTheme = document.documentElement.classList.contains('dark') ? 'dark' : 'light';
+          localStorage.setItem('theme', newTheme);
+        });
+      }
+    </script>
+  </body>
+</html>
