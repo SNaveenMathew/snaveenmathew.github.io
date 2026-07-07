@@ -6,20 +6,21 @@
     <title>Naveen Mathew Nathan - Personal Website</title>
     <link href="assets/css/fonts.css" rel="stylesheet" />
     <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="assets/css/match-sagar.css" rel="stylesheet" />
   </head>
   <body class="bg-lightgray dark:bg-darkgray">
-    <header class="sticky top-0 z-30 w-full bg-lightgray/90 dark:bg-darkgray/90">
+    <header class="sticky top-0 z-30 w-full border-b border-transparent bg-lightgray/90 dark:bg-darkgray/90 max-md:border-lightgray-100 dark:max-md:border-darkgray-100">
       <div class="flex w-full max-w-7xl mx-auto items-center justify-between p-4 md:px-8 xl:px-20">
         <a href="#">
           <h3 class="font-bold text-2xl lg:text-3xl text-lightgray-900 dark:text-darkgray-900">&lt;NM /&gt;</h3>
         </a>
         <div class="hidden md:flex items-center gap-6">
-          <a class="font-medium text-base text-lightgray-600 dark:text-darkgray-600" href="#about">About</a>
-          <a class="font-medium text-base text-lightgray-600 dark:text-darkgray-600" href="#work">Work</a>
-          <a class="font-medium text-base text-lightgray-600 dark:text-darkgray-600" href="#research">Research</a>
-          <a class="font-medium text-base text-lightgray-600 dark:text-darkgray-600" href="#contact">Contact</a>
+          <a class="font-medium text-base text-lightgray-600 transition-all hover:text-lightgray-900 active:text-lightgray-600 dark:text-darkgray-600 dark:hover:text-darkgray-900" href="#about">About</a>
+          <a class="font-medium text-base text-lightgray-600 transition-all hover:text-lightgray-900 active:text-lightgray-600 dark:text-darkgray-600 dark:hover:text-darkgray-900" href="#work">Work</a>
+          <a class="font-medium text-base text-lightgray-600 transition-all hover:text-lightgray-900 active:text-lightgray-600 dark:text-darkgray-600 dark:hover:text-darkgray-900" href="#research">Research</a>
+          <a class="font-medium text-base text-lightgray-600 transition-all hover:text-lightgray-900 active:text-lightgray-600 dark:text-darkgray-600 dark:hover:text-darkgray-900" href="#contact">Contact</a>
           <span class="h-6 w-0.5 bg-lightgray-100 dark:bg-darkgray-100"></span>
-          <button id="switch-theme" class="p-1 rounded-lg hover:bg-lightgray-100 dark:hover:bg-darkgray-100">
+          <button id="switch-theme" class="relative flex justify-center items-center rounded-lg p-1.5 hover:bg-lightgray-100 active:bg-lightgray-200 transition-colors duration-200 dark:hover:bg-darkgray-100 dark:active:bg-darkgray-200">
             <svg
               class="stroke-lightgray-600 flex dark:hidden animate-bounce"
               width="24"
@@ -69,7 +70,7 @@
         <div class="flex flex-col w-full max-w-7xl mx-auto px-4 md:px-8 xl:px-20 gap-12">
           <div class="flex flex-col gap-12">
             <div class="flex flex-col gap-4">
-              <h1 class="font-bold text-4xl md:text-5xl lg:text-6xl text-left text-lightgray-900 dark:text-darkgray-900">
+              <h1 class="font-semibold md:font-bold text-4xl md:text-5xl lg:text-6xl lg:leading-[72px] tracking-[-0.02em] text-left text-lightgray-900 dark:text-darkgray-900">
                 Naveen Mathew Nathan
               </h1>
               <p class="font-normal text-lg md:text-xl text-lightgray-600 dark:text-darkgray-600">
@@ -108,13 +109,22 @@
                   </svg>
                   <p class="font-normal text-base text-lightgray-600 dark:text-darkgray-600">Boston, MA</p>
                 </div>
+                <div class="flex items-center gap-2">
+                  <div class="flex h-6 w-6 items-center justify-center">
+                    <span class="relative flex h-3 w-3">
+                      <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald opacity-75"></span>
+                      <span class="relative inline-flex h-3 w-3 rounded-full bg-emerald"></span>
+                    </span>
+                  </div>
+                  <p class="font-normal text-base text-lightgray-600 dark:text-darkgray-600">Available for new projects</p>
+                </div>
               </div>
               <div class="flex gap-4">
-                <a href="https://github.com/SNaveenMathew" target="_blank">
+                <a href="https://github.com/SNaveenMathew" target="_blank" class="relative flex justify-center items-center rounded-lg p-1.5 hover:bg-lightgray-100 active:bg-lightgray-200 transition-colors duration-200 dark:hover:bg-darkgray-100 dark:active:bg-darkgray-200 [&_svg]:stroke-lightgray-600 dark:[&_svg]:stroke-darkgray-600 [&_svg]:w-6 [&_svg]:h-6">
                   <svg
                     class="stroke-lightgray-600 dark:stroke-darkgray-600 hover:stroke-lightgray-900 dark:hover:stroke-darkgray-900"
-                    width="36"
-                    height="36"
+                    width="24"
+                    height="24"
                     viewBox="0 0 36 36"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -128,12 +138,12 @@
                     <path d="M15 24C10.49 26 10 22 8 22" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                   </svg>
                 </a>
-                <a href="https://snaveenmathew.github.io/tech_non_tech_blog/" target="_blank">
+                <a href="https://snaveenmathew.github.io/tech_non_tech_blog/" target="_blank" class="relative flex justify-center items-center rounded-lg p-1.5 hover:bg-lightgray-100 active:bg-lightgray-200 transition-colors duration-200 dark:hover:bg-darkgray-100 dark:active:bg-darkgray-200 [&_svg]:text-lightgray-600 dark:[&_svg]:text-darkgray-600 [&_svg]:w-6 [&_svg]:h-6">
                   <svg
                     class="text-lightgray-600 dark:text-darkgray-600 hover:text-lightgray-900 dark:hover:text-darkgray-900"
                     style="fill: currentColor;"
-                    width="36"
-                    height="36"
+                    width="24"
+                    height="24"
                     viewBox="0 0 533 575"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -168,12 +178,12 @@
                     </g>
                   </svg>
                 </a>
-                <a href="https://snaveenmathew.github.io/stat_ml_blog/" target="_blank">
+                <a href="https://snaveenmathew.github.io/stat_ml_blog/" target="_blank" class="relative flex justify-center items-center rounded-lg p-1.5 hover:bg-lightgray-100 active:bg-lightgray-200 transition-colors duration-200 dark:hover:bg-darkgray-100 dark:active:bg-darkgray-200 [&_svg]:text-lightgray-600 dark:[&_svg]:text-darkgray-600 [&_svg]:w-6 [&_svg]:h-6">
                   <svg
                     class="text-lightgray-600 dark:text-darkgray-600 hover:text-lightgray-900 dark:hover:text-darkgray-900"
                     style="fill: currentColor;"
-                    width="36"
-                    height="36"
+                    width="24"
+                    height="24"
                     viewBox="0 0 200 200"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -214,7 +224,7 @@
             </div>
           </div>
           <div class="flex flex-col gap-6">
-            <h2 class="font-semibold text-2xl lg:text-3xl text-left text-lightgray-900 dark:text-darkgray-900">
+              <h2 class="font-semibold text-2xl lg:text-3xl tracking-[-0.02em] text-left text-lightgray-900 dark:text-darkgray-900">
               Background & Interests
             </h2>
             <p class="font-normal text-base text-lightgray-600 dark:text-darkgray-600">
@@ -492,7 +502,7 @@
                   stroke-linejoin="round"
                 />
               </svg>
-              <a href="mailto:naveenmathewnathan.s@gmail.com" class="font-semibold text-lg lg:text-2xl text-lightgray-900 dark:text-darkgray-900 hover:underline">
+                <a href="mailto:naveenmathewnathan.s@gmail.com" class="font-semibold text-lg lg:text-2xl tracking-[-0.02em] text-lightgray-900 dark:text-darkgray-900 hover:underline">
                 naveenmathewnathan.s@gmail.com
               </a>
             </div>
@@ -517,7 +527,7 @@
         </div>
       </section>
 
-      <footer class="flex flex-col w-full py-8 md:py-12 border-t border-lightgray-200 dark:border-darkgray-200">
+      <footer class="w-full bg-lightgray-50 py-6 dark:bg-darkgray-50">
         <div class="flex flex-col w-full max-w-7xl mx-auto px-4 md:px-8 xl:px-20 gap-4">
           <p class="font-normal text-sm text-center text-lightgray-600 dark:text-darkgray-600">
             &copy; 2024 Naveen Mathew Nathan. All rights reserved.

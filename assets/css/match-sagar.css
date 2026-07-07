@@ -1,0 +1,34 @@
+/* Supplementary utilities to match https://sagarshah.dev styling */
+.tracking-\[-0\.02em\] {
+  letter-spacing: -0.02em;
+}
+
+@media (min-width: 1024px) {
+  .lg\:leading-\[72px\] {
+    line-height: 72px;
+  }
+}
+
+@keyframes ping {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  75%,
+  to {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+.animate-ping {
+  animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+/* Match reference site's darker card shadow in dark mode */
+:is(.dark .dark\:shadow-xl) {
+  --tw-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000),
+    var(--tw-shadow);
+}
